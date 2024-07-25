@@ -1,0 +1,35 @@
+/* CREATE VARIABLES */
+:root{
+    --base:#ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+/* GLOBAL STYLING */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl{
+    color: var(--base);
+}
+
